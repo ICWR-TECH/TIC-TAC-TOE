@@ -154,6 +154,7 @@ class tictactoe:
         while(True):
 
             self.value = input("[*] Value -> ")
+            self.value = self.value.lower()
 
             print("\n")
 
